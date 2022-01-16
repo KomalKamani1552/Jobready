@@ -1,0 +1,341 @@
+.homepageContainer{
+    /* width: 100%;
+    padding-left: 5%;
+    padding-right: 2%; */
+    /* text-align: center; */
+}
+.navigationContainer{
+    max-width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.navigationButtonContainer{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigationButton{
+    background-color: transparent;
+    text-align: center;
+    color: #858585;
+    font-family: sans-serif;
+    border: none;
+    white-space: nowrap;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.navigationButton:hover{
+    color: #252525;
+}
+.homeSection1Container{
+    width: 100%;
+    display: flex;
+}
+
+.homeSection2container{
+    background: #E7F3FF;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    padding-top: 15px;
+}
+.homeSection2Heading{
+    font-size: 40px;
+    color: #0B0E12;
+    position: relative;
+    animation: mymove 2.5s infinite;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+}
+.homeSection2CardContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.homeCardWhite{
+    background-color: #FFFFFF;
+    width: 18%;
+    height: 350px;
+    text-align: center;background: #FFFFFF;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+.homeCardWhite:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
+.left{
+    width: 50%;
+    text-align: start;
+    margin-left: 5%;
+}
+.thumbnailContainer{
+    width: 30%;
+    text-align: right;
+    /* margin-right: 2%; */
+}
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    color: #2987DE;
+    font-size: 42px;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation: mymove 2.5s infinite;
+    animation-iteration-count: 1;
+}
+
+
+
+
+
+
+
+
+
+.blueLine{
+    width: 152px;
+    background-color: #2987DE;
+    height: 11px;
+    margin-top: -25px;
+    position: relative;
+    animation: mymove 2.5s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes mymove {
+    from {left: 0%}
+    to {left: 80px;}
+    }
+.blackLine{
+    width: 152px;
+    background-color: #0B0E12;
+    height: 11px;
+    margin-top: -25px;
+}
+.homepageleftTextbottomDiv{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.text2{
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 38px;
+    color: #08A08E;
+    margin: 0em !important;
+    position: relative;
+    animation: mymove 2.5s infinite;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+#green{
+    min-width: 4.65px;
+    height: 310px;
+    background: #08A08E;
+    transform: rotate(0.52deg);
+    margin-right: 12px;
+    position: relative;
+    animation: mymove 2.5s infinite;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+.sliderContainerDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.homeSlider{
+    width: 75%;
+}
+/* .right{
+    position: absolute;
+width: 604px;
+height: 613px;
+left: 723px;
+top: 147px;
+}     */
+
+.get{
+    margin-top: 15px;
+    width: 223px;
+    height: 63px;
+    background: #08A08E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #FFFFFF;
+    /* border-color: #08A08E; */
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    animation: mymove 2.5s infinite;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+.get:hover{
+    background: #3cc7b7;
+    transition: all 500ms ease-in;
+}
+
+.loginMaindiv{
+    background-color:#F0F2F3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footerMainDiv{
+    background-color: #4B5458;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* display: flex; */
+    padding-bottom: 10px;
+}
+.loginFormContainer{
+    width: 23%;
+    background-color: #fff;
+    /* text-align: center; */
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginHeading{
+    font-size: 42px;
+    color: #2987DE;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.loginText{
+    font-size: 24px;
+    color: #000000;
+}
+.loginFieldContainer{
+    /* width: 80%; */
+    background-color: #F3F9FF;
+    height: 36px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px #858585;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.loginField{   
+    /* padding-left: px; */
+    background-color: #F3F9FF;
+    color: #616161;
+    border: none;
+    border-color: transparent;
+}
+.loginField:focus{
+    border: none;
+    border-color: transparent;
+}
+.loginField::placeholder{
+    color: #616161;
+}
+.loginFormSubmitbutton{
+    background-color: #2987DE;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    color: #E7F3FF;
+    height: 36px;
+    margin-top: 25px;
+}
+.loginFormSubmitbutton:hover{
+    background-color: #4c82b6;
+}
+.borderDiv{
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.footerRightSection{
+    display: flex;
+    flex-direction: column;
+}
+.footerHeading{
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footerText{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.footerTextLink{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.footerTextLink:hover{
+    color: #cecaca;
+    transition: all 250ms ease;
+}
+.emplistContainer{
+    display: flex;
+    flex-flow: column;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.parentOfListComponent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterContainer{
+    width: 25%;
+    background-color:#ffffff;
+    
+}
+
+.listContainer{
+    background-color:#F0F2F3;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+     display: flex;
+     align-items:center;
+    
+     /* padding: auto; */
+}
+
+.filterBySkill{
+    margin-left: 60px;
+    padding: 10px;
+}
+
+
+
